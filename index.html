@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <title>TodoList</title>
+</head>
+<body>
+    <header>
+        <h1>TodoList</h1>
+    </header>
+
+    <main>
+        <section id="contents">
+            <article class="list">
+                <h2>할일 목록</h2>
+
+                <li class="todo">
+                    <div class="checkbox">V</div>
+                    <div class="todo_value">목록 임시</div>
+                    <button class="del_btn">삭제</button>
+                </li>
+
+                <li class="todo">
+                    <div class="checkbox">V</div>
+                    <div class="todo_value">목록 임시</div>
+                    <button class="del_btn">삭제</button>
+                </li>
+                    
+            </article>
+
+        </section>
+
+
+        <section id="inputs">
+
+            <article class="add">
+                <h3>추가 하기</h3>
+                <input type="text" id="item" placeholder="예)청소하기">
+                <button class="add_btn">추가하기</button>
+            </article>
+
+            <article class="memo_area">
+                <h3>메모하기</h3>
+                <textarea id="memo" placeholder="메모하세요:>"></textarea>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        김윤정 만듦<br>
+        <a href="https://github.com/codekyz" target="_blank">codekyz</a>
+    </footer>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
