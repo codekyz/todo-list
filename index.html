@@ -10,50 +10,37 @@
 </head>
 <body>
     <header>
-        <h1>TodoList</h1>
+        <h1>오늘의 할일</h1>
     </header>
 
     <main>
-        <section id="contents">
-            <article class="list">
-                <h2>할일 목록</h2>
-                <ul>
-                    <!-- <li class="todo">
-                        <div class="checkbox">V</div>
-                        <div class="todo_value">할일을 적어보세요</div>
-                        <button class="del_btn">삭제</button>
-                    </li> -->
-    
-                    <!-- <li class="todo">
-                        <div class="checkbox">V</div>
-                        <div class="todo_value">목록 임시</div>
-                        <button class="del_btn">삭제</button>
-                    </li> -->
-                </ul>
-                    
-            </article>
+        <section class="inputs">
+            <input type="text" id="inputvalue">
+            <button class="add_btn">추가</button>
+        </section>
+
+        <section class="items">
+            <ul>
+                <li>
+                    오늘의 할일1
+                </li>
+                <li class="checked">
+                    오늘의 할일2
+                </li>
+                <li>
+                    오늘의 할일3
+                </li>
+                <li>
+                    오늘의 할일4
+                </li>
+            </ul>
 
         </section>
 
-
-        <section id="inputs">
-
-            <article class="add">
-                <h3>추가 하기</h3>
-                <input type="text" id="item" placeholder="예)청소하기">
-                <button class="add_btn">추가하기</button>
-            </article>
-
-            <article class="memo_area">
-                <h3>메모하기</h3>
-                <textarea id="memo" placeholder="메모하세요:>"></textarea>
-            </article>
-
-        </section>
     </main>
 
     <footer>
-        김윤정 만듦<br>
+        김윤정 만듦
         <a href="https://github.com/codekyz" target="_blank">codekyz</a>
     </footer>
     
